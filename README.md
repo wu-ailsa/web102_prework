@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/ThZucpf.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+<img src='https://i.imgur.com/ThZucpf.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
