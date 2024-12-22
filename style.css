@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    margin-top: 60px;
 }
 
 #tentacles {
@@ -21,6 +22,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: flex;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -44,6 +48,12 @@ body {
 
 .game-img {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card img {
+    width: 300px;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
 }
@@ -72,4 +82,68 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #E6BAAD;
+    display: flex;          /* Use flexbox for alignment */
+    align-items: center;    /* Vertically align items */
+    padding: 10px 20px;     /* Add padding around the navbar */
+    position: fixed;        /* Fix navbar to the top */
+    top: 0;
+    width: 100%;            /* Full width */
+    z-index: 1000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.navbar #search-bar {
+    flex: 0 0 auto;         /* Prevent search bar from stretching */
+    margin-right: 20px;     /* Space between search bar and list */
+    padding: 8px 10px;      /* Add padding for the input */
+    border: 1px solid #ccc; 
+    border-radius: 20px;     
+}
+
+.navbar ul {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    display: flex;          
+    justify-content: flex-start; 
+}
+
+.navbar li {
+    margin: 0 20px;         
+}
+
+.navbar a {
+    text-decoration: none;  
+    color: white;           
+    padding: 10px 15px;     
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #DA9986; /* Background on hover */
+    color: white;
+}
+
+#the-start {
+    padding-top: 80px; 
+    margin-top: -60px; 
+}
+
+#welcome, #stats, #our-games {
+    padding-top: 60px; 
+    margin-top: -30px; 
+}
+
+button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px #ADE6BA, 0 0 20px #ADE6D7, 0 0 30px #BDE6AD;  
 }
